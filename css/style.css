@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/backgrounds/architecture.jpg) center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
@@ -21,7 +21,8 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: #fff;
+  border-radius: 20px;
 }
 
 h1, h2 {
@@ -45,10 +46,12 @@ h3 {
   margin-top: .5em;
 }
 
+
 img {
   max-width: 100%;
   width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 p {
